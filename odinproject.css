@@ -1,0 +1,158 @@
+body{
+display:flex;
+justify-content:flex-start;
+margin:auto;
+font-family:'Roboto', sans-serif;
+height:48rem;
+}
+header{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+color:white;
+background-image:url(photo-1585202900225-6d3ac20a6962.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+width:50%;
+}
+    #logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    letter-spacing:0.8rem;
+    background-color:rgba(0, 0, 0, 0.303);
+    text-transform:uppercase;
+    padding:0.6rem 0rem 0.6rem 0rem;
+    margin:10rem 0rem 0rem 0rem;
+    }
+        #logo img{
+        width:80px;
+        }
+        #logo h1{
+        margin:0px;
+        font-family:'Corben', cursive;
+        font-size:4rem;
+        }
+header p{
+text-align:center;
+font-size:0.6rem;
+}
+    header p a{
+    text-decoration:underline;
+    color:white;
+    }
+section{
+background-color:rgb(245, 245, 245);
+}
+    section h2{
+    font-size:1.3rem;
+    font-weight:500;
+    margin:8rem 10rem 4rem 2.4rem;
+    }
+        section h2 br{
+        margin-bottom:2rem;
+        }
+form{
+background-color:white;
+padding:1.2rem 26rem 1.2rem 2.4rem;
+box-shadow:0px 4px 3px rgb(223, 223, 223); 
+}
+    form fieldset{
+    padding:0rem;
+    border:none;
+    margin:0px;
+    }
+    fieldset legend{
+    padding:0rem 0rem 1rem 0rem;
+    font-size:1.2rem;
+    font-weight:500;
+    }
+    form div{
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows:0.6fr auto;
+    margin-bottom:1rem;
+    }
+    div label{
+    font-size:0.6rem;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing:0.1rem;
+    }
+    div input{
+    width:14rem;
+    height:1.2rem;
+    border:solid 2px lightgray;
+    border-radius:0.2rem;
+    background-color:white;
+    }
+    #rowone #FirstName{
+    grid-row:2;
+    }
+        #rowone #SecondName{
+        grid-row:2;
+        }
+    #rowtwo #Email{
+    grid-row:2;
+    }
+        #rowtwo #PhoneNumber{
+        grid-row:2;
+        }
+    #rowthree #Password{
+    grid-row:2;
+    }
+        #rowthree abbr{
+        display:inline-block;
+        color:white;
+        border-radius:0.2rem 0rem 0.2rem 0rem;
+        padding:0rem 0.2rem 0rem 0.2rem;
+        background-color:rgb(0, 0, 0);
+        
+        }
+    #rowthree #ConfirmPassword{
+    grid-row:2;
+    }
+
+
+
+section button{
+color:white;
+font-size:1rem;
+font-weight:500;
+box-shadow:0px 4px 4px rgb(197, 197, 197);
+border:none;
+border-radius:0.4rem;
+padding:0.8rem 2.8rem 0.8rem 2.8rem; 
+margin:2rem 0rem 0rem 2.4rem;
+background-color:rgb(89,109,72);
+transition:background-color 8ms;
+}
+h3{
+font-size:1rem;
+font-weight:100;
+padding:0rem 0rem 0rem 2.4rem;
+margin:1.8rem 0rem 0rem 0rem;
+}
+    h3 a{
+    text-decoration:none;
+    color:rgb(89,109,72);
+    font-weight:500;
+    }
+/*Hovers*/
+
+input:invalid{
+background-color:rgb(255, 229, 229);
+}
+input:valid{
+background-color:rgb(231, 255, 229);
+}
+#rowthree abbr{
+cursor:pointer;
+}
+button:hover{
+cursor:pointer;
+background-color:rgb(47, 78, 61);
+box-shadow:0px 4px 4px rgba(197, 197, 197, 0.911);
+}
+        
